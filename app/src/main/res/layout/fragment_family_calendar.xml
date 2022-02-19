@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.FamilyCalendar"
+    android:layout_marginBottom="50dp"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="40dp"
+        android:background="@color/yellow">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/familyCalendar"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="-25dp"
+            android:gravity="center">
+        </TextView>
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <CalendarView
+                    android:id="@+id/calendarOnFamilyPage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </CalendarView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ListView
+                        android:id="@+id/familyEventList"
+                        android:layout_width="match_parent"
+                        android:layout_height="410dp"
+                        tools:listitem="@layout/custom_listview_event"></ListView>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

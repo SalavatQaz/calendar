@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">CalendarV3</string>
+    <string name="appName">Family Calendar</string>
+    <string name="description">Семейный календарь-органайзер</string>
+    <string name="welcome">С возвращением</string>
+    <string name="sign_in_to_continue">Войдите чтобы продолжить </string>
+    <string name="forgetPassword">Забыли пароль?</string>
+    <string name="go">Войти</string>
+    <string name="newUser">Новый пользователь? Создать аккаунт</string>
+    <string name="welcome_at_signup_page">Добро пожаловать</string>
+    <string name="fillTextFields">Заполните поля</string>
+    <string name="endRegistration">Завершить</string>
+    <string name="alreadyHaveAccount">Аккаунт уже существует</string>
+    <string name="family_id">ID Семьи</string>
+    <string name="edit_profile">внести изменения</string>
+    <string name="createNewEvent">Создание нового события</string>
+    <string name="selectedDay">Выберите дату</string>
+    <string name="selectedTime">Выберите время</string>
+    <string name="eventTitle">Заголовок</string>
+    <string name="eventDesc">Описание</string>
+    <string name="back">Назад</string>
+    <string name="personEventRadio">Личное событие</string>
+    <string name="familyEventRadio">Семейное событие</string>
+    <string name="logOut">Выйти</string>
+    <string name="memberList">Список семьи</string>
+    <string name="personCalendar">ЛИЧНЫЙ КАЛЕНАДРЬ</string>
+    <string name="familyCalendar">СЕМЕЙНЫЙ КАЛЕНАДРЬ</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
